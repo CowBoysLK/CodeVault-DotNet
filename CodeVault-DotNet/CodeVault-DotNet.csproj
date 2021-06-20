@@ -6,4 +6,8 @@
     <RootNamespace>CodeVault_DotNet</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="SixLabors.ImageSharp" Version="1.0.3" />
+  </ItemGroup>
+
 </Project>

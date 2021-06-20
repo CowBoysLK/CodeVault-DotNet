@@ -6,7 +6,9 @@ namespace CodeVault_DotNet
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
+            ImageCompressor imageCompressor = new ImageCompressor();
+            imageCompressor.CompressImage();
         }
     }
 }
