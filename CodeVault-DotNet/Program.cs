@@ -7,8 +7,12 @@ namespace CodeVault_DotNet
         static void Main(string[] args)
         {
             
-            ImageCompressor imageCompressor = new ImageCompressor();
-            imageCompressor.CompressImage();
+            //ImageCompressor imageCompressor = new ImageCompressor();
+            //imageCompressor.CompressImage();
+
+            EncryptingTool encryptingTool = new EncryptingTool();
+            //encryptingTool.EncryptString();
+            encryptingTool.DecryptString();
         }
     }
 }
