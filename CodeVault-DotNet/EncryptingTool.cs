@@ -11,7 +11,7 @@ namespace CodeVault_DotNet
 
         public void EncryptString()
         {
-            string original = "Here is some data to encrypt!";
+            string original = "{\"Email\":\"dinith2@yopmail.com\",\"Token\":\"CfDJ8PAM6qS9vfBGlXGWXNNCnwCk66mUs2awACpxNqTNr0TdZ3zlgEfR/DrjU+yPlKqWi647csc4blp+AWYV6I2RlPfu4raMWoW7CuWhNIvc36xkNUfoJhNqm4/79abbjgb4D1WqpFF0nTITMk1omHBBywDtqEaqlnJTHKw2G0ghiJKR1hw5+pBx2UyMxCm3MTElmlTUHpnu2SnDoKYNS3MvPvON9MqCaTYLI01S/supeeZ8\"}";
 
             // Create a new instance of the Aes
             var keybytes = Encoding.UTF8.GetBytes("kljsdkkdlo4454GG");
@@ -68,7 +68,7 @@ namespace CodeVault_DotNet
 
         public void DecryptString()
         {
-            var encrypted = Convert.FromBase64String("KTEKEPO4zJ92XsJByLTYfPb6VrIkajEiBABLhRsJFKk=");
+            var encrypted = Convert.FromBase64String("14YCoEVRMOHEIavPj4FHjLGJ32h3MQXmFUiwpzIaH5NWGCAiigIreaf/4g9uH3zyg5V354vki86wgJqkLSMTCFvtRpF07KSl7k8yNogYskc1MsQF2gcb7Ju4zgNNJKIiPidvz0P0eGiGeYPhnkHhe8B8A7qQtQY/HgsefLUijUgroM7aIUCmVddweAnNF774A1g7XV+n4MEUzS+oBzLJn+a1mzEeuJSIeQ7gMfJ8O47ozQAc6oY/tM1twRrxfG3TT/aoGsguk6fhlmWBMPNSqBE281khSCHqaHen6S469/Ou+ssIsGCL5i7tcY6TjP7tRvxXRxpbr+i4Jv77yYdxBggjSXTpYPFDCUOLbcwg4OeNPhRL66H0ECAjdvsvZxnh");
             var keybytes = Encoding.UTF8.GetBytes("kljsdkkdlo4454GG");
             var iv = Encoding.UTF8.GetBytes("kljsdkkdlo4454GG");
 
